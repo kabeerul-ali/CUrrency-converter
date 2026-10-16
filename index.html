@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <h1 id="heading">Currency Converter</h1>
+      <label for="from">From</label>
+      <input type="number" id="frominput" />
+      <label for="to">To</label>
+      <input type="number" id="toinput" />
+      <div class="selectors">
+        <div class="left">
+        <img class="imgl img" src="https://flagsapi.com/IN/flat/64.png" alt="India Flag">
+          <select name="from" id="from">
+           
+          </select>
+        </div>
+        <button id="swap"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+        <div class="right">
+          <img class="imgr img" src="https://flagsapi.com/US/flat/64.png" alt="USA Flag">
+          <select name="to" id="to">
+            
+          </select>
+        </div>
+      </div>
+      <p id="rate">waitto first exchange ----</p>
+      <button id="exchange">Exchange</button>
+      <p id="date">last update check by 1 exchange :</p>
+
+    </div>
+
+    <script src="./country.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
