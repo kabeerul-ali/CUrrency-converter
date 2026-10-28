@@ -4,7 +4,10 @@
   --text: #6e3511;
   --border: #597928;
 }
-
+html {
+  zoom: 1;
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
